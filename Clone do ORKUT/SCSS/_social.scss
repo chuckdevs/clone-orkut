@@ -1,0 +1,86 @@
+.social {
+    border-radius: 5px 50px 5px 5px;
+}
+
+.social-tittle {
+    color: #000;
+    font-weight: 400;
+    padding: 7px 0;
+
+    padding: 7 0;
+}
+
+.status {
+    display: flex;
+    gap: 1rem;
+    border-style: solid;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #EAEAEC;
+    stroke-width: 1px;
+    padding: 0.5rem;
+    margin-bottom: 12px;
+}
+
+.state {
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.t-status,
+.w-status {
+    @extend %perfil-cinza;
+
+}
+
+.w-status {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.icon-status {
+    margin-right: 5px;
+
+    &.multi {
+        margin-right: 0px;
+    }
+
+}
+
+.tag {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 7px 7px 0px 0px;
+    background: var(--Gradient, linear-gradient(180deg, #517FC5 13.02%, rgba(81, 127, 197, 0.75) 30.73%, rgba(81, 127, 197, 0.75) 82.81%, #517FC5 96.35%));
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.divisor {
+    border-width: 5px;
+    border-color: #B5B7BB;
+    margin: 0;
+
+}
+
+/* Aplica estilo diferente apenas a colunas pares */
+table tr:nth-child(even) {
+    background-color: #EEF8FE;
+    /* Cor de fundo para colunas pares */
+}
+
+/* Estilo padrão para todas as colunas */
+tr {
+    /* Estilo comum para todas as colunas, se necessário */
+    background-color: #DEEEFD;
+    display: block;
+    .t-status{
+        display: inline-block;
+    }
+}

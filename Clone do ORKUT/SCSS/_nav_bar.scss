@@ -1,0 +1,49 @@
+.navbar {
+    padding: 0;
+}
+
+.navbar-bg {
+    background: linear-gradient(180deg, #517FC5 13.02%, rgba(81, 127, 197, 0.75) 30.73%, rgba(81, 127, 197, 0.75) 82.81%, #517FC5 96.35%);
+}
+
+.navbar-brand {
+
+    padding: 0;
+}
+
+.nav-link {
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-email {
+    font-weight: 700;
+    color: #36527D;
+}
+
+.search-d {
+    background-color: #5F7FA7;
+    border-radius: 10px;
+    width: 196px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+        padding: 0;
+    }
+
+    .form-control {
+        background-color: #FFF;
+        stroke-width: 1px;
+        stroke: #7D7D7D;
+        width: 160.567px;
+        height: 21.774px;
+
+        align-self: center;
+        border-radius: 0;
+    }
+}

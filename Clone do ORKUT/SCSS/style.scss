@@ -1,0 +1,28 @@
+/* GLOBAL*/
+
+body {
+    font-family: Verdana;
+
+
+}
+
+.shadow-c {
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.30);
+}
+
+/* GLOBAL*/
+/*Nav Bar*/
+@import 'nav_bar';
+/*Nav Bar*/
+
+/*perfil*/
+@import 'perfil';
+/*perfil*/
+
+/*social*/
+@import 'social';
+/*social*/
+
+/*friends*/
+@import 'friends';
+/*friends*/

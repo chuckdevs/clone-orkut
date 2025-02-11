@@ -1,0 +1,67 @@
+%perfil-cinza {
+    color: #979797;
+    font-weight: 400;
+}
+
+%link {
+    color: #4E93AA !important;
+    font-weight: 400;
+
+}
+
+.perfil {
+    border-radius: 5px;
+
+    .img-profile {
+        height: 292px;
+
+        width: 100%;
+        padding: 21px 13px 13px 13px;
+        aspect-ratio: auto ;
+        object-fit: cover
+
+    }
+
+    .nome {
+        @extend %link;
+    }
+
+    .civil {
+        margin: 0;
+        @extend %perfil-cinza;
+    }
+
+    .location {
+        @extend %perfil-cinza;
+    }
+
+    .icon-more {
+        align-self: center;
+    }
+
+    .more-friends {
+        @extend %link;
+    }
+
+    .nav-perfil {
+        color: #535C69;
+        font-weight: 400;
+    }
+
+    .item-nav-perfil {
+        padding: 0.1rem 0;
+        border-radius: 2px 2px 0px 0px;
+        border: 1px solid #DDE9F8;
+       
+        background: #EFF9FF;
+        
+    }
+
+    .link-nav-perfil {
+        display: flex;
+        gap: 0.5rem;
+        color: #535C69;
+         text-decoration: none;
+    }
+    
+}
